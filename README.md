@@ -5,6 +5,7 @@
 ### 백엔드
 
 - [ ] openai api express로 구현<br>
+  - ✅ 기본 설정 <br>
 
 ### 프론트엔드
 
