@@ -6,6 +6,7 @@
 
 - [ ] openai api express로 구현<br>
   - ✅ 기본 설정 <br>
+  - ✅ 미들웨어 적용 <br>
 
 ### 프론트엔드
 
