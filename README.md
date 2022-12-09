@@ -4,9 +4,11 @@
 
 ### 백엔드
 
-- [ ] openai api express로 구현<br>
+- ✅ openai api express로 구현<br>
   - ✅ 기본 설정 <br>
   - ✅ 미들웨어 적용 <br>
+  - ✅ 컨트롤러 분리<br>
+  - ✅ bodyparser 적용(prompt, 사이즈 직접 입력)<br>
 
 ### 프론트엔드
 
