@@ -51,7 +51,7 @@ body {
 
 /* Showcase */
 .showcase {
-  height: 450px;
+  height: 320px;
   width: 100%;
   background: var(--primary-color);
 }
