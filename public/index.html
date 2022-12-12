@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/spinner.css" />
+
+    <script src="js/main.js" defer></script>
+    <title>OpenAI Image Generator</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <h2>OpenAI Image Generator</h2>
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li>
+              <a
+                href="http://beta.openai.com/docs"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Open API DOCS</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="showcase">
+        <form id="image-form">
+          <h1>원하는 이미지를 설명하세요</h1>
+          <div class="form-control">
+            <input
+              type="text"
+              id="prompt"
+              placeholder="원하는 이미지를 설명하세요"
+            />
+          </div>
+          <!--size-->
+          <div class="form-control">
+            <select name="size" id="size">
+              <option value="small">small</option>
+              <option value="medium" selected>medium</option>
+              <option value="large">Large</option>
+            </select>
+          </div>
+          <button type="submit" class="btn">생성</button>
+        </form>
+      </section>
+      <section class="image">
+        <div class="image-container">
+          <h2 class="m"></h2>
+          <img src="" alt="" class="image" />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
